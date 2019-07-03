@@ -51,6 +51,8 @@ class Student
     WHERE grade = 10 
     LIMIT x 
     SQL
+    
+    DB[:conn].execute(sql)
   end
 
   def self.find_by_name(name)
