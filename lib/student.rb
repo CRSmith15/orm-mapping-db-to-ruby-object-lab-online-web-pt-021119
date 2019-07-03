@@ -49,7 +49,7 @@ class Student
     SELECT name 
     FROM students 
     WHERE grade = 10 
-    LIMIT x 
+    LIMIT 
     SQL
     
     DB[:conn].execute(sql)
