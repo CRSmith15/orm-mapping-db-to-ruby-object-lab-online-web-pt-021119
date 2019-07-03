@@ -67,6 +67,9 @@ class Student
     self.new_from_db(first_student)
       
   end 
+  
+  def self.all_students_in_grade_X
+    
 
   def self.find_by_name(name)
     sql = <<-SQL
